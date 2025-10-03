@@ -49,18 +49,45 @@ html, body{
 
 .giroBarril{
     animation-name: rotarBarril;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    
 
 }
 
 @keyframes rotarBarril{
-    from {
-        transform: rotate(-80deg);
+    10%{
+        transform: rotate(0deg);
     }
-    to{
-        transform: rotate(80deg);
+    20%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    70%{
+        transform: rotate(0deg);
+    }
+    79%{
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(360deg);
+    }
+    82%{
+        transform: rotate(360deg);
+    }
+    84%{
+        transform: rotate(360deg);
     }
 }
 @keyframes saltos{
@@ -105,10 +132,9 @@ html, body{
         top:400px;
     }
     99%{
-        
+        top: -200px;
     }
     100%{
-        
-        opacity: 0;
+
     }
 }
